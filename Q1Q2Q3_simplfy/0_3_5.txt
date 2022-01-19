@@ -1,0 +1,16 @@
+d e
+e c
+e d
+d f
+f c
+c e
+c f
+f d
+5 2
+6 8
+6 5
+5 f
+b 8
+8 2
+8 f
+b 5

@@ -1,0 +1,35 @@
+Q1 = 2, Q2 = 6
+
+k = 0	s(Q1^k) = 4, s(Q2^k) = 3, s(Q1^k)^s(Q2^k) = 7
+
+k = 1	s(Q1^k) = c, s(Q2^k) = 9, s(Q1^k)^s(Q2^k) = 5
+
+k = 2	s(Q1^k) = 1, s(Q2^k) = 6, s(Q1^k)^s(Q2^k) = 7
+
+k = 3	s(Q1^k) = a, s(Q2^k) = f, s(Q1^k)^s(Q2^k) = 5
+
+k = 4	s(Q1^k) = 3, s(Q2^k) = 4, s(Q1^k)^s(Q2^k) = 7
+
+k = 5	s(Q1^k) = 9, s(Q2^k) = c, s(Q1^k)^s(Q2^k) = 5
+
+k = 6	s(Q1^k) = 6, s(Q2^k) = 1, s(Q1^k)^s(Q2^k) = 7
+
+k = 7	s(Q1^k) = f, s(Q2^k) = a, s(Q1^k)^s(Q2^k) = 5
+
+k = 8	s(Q1^k) = b, s(Q2^k) = 8, s(Q1^k)^s(Q2^k) = 3
+
+k = 9	s(Q1^k) = 7, s(Q2^k) = e, s(Q1^k)^s(Q2^k) = 9
+
+k = a	s(Q1^k) = 2, s(Q2^k) = 5, s(Q1^k)^s(Q2^k) = 7
+
+k = b	s(Q1^k) = d, s(Q2^k) = 0, s(Q1^k)^s(Q2^k) = d
+
+k = c	s(Q1^k) = 8, s(Q2^k) = b, s(Q1^k)^s(Q2^k) = 3
+
+k = d	s(Q1^k) = e, s(Q2^k) = 7, s(Q1^k)^s(Q2^k) = 9
+
+k = e	s(Q1^k) = 5, s(Q2^k) = 2, s(Q1^k)^s(Q2^k) = 7
+
+k = f	s(Q1^k) = 0, s(Q2^k) = d, s(Q1^k)^s(Q2^k) = d
+
+end
