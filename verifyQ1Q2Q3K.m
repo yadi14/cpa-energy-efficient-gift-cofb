@@ -29,3 +29,6 @@ max(summarize,[],'all')%16
 distinguishingQpair = strname(summarize == max(summarize,[],'all'))
 % dump the list of filename into a log file
 writematrix(distinguishingQpair,"summaryList.log",'QuoteStrings',false,'FileType','text')
+%% count how many of such {q,q',q''} pair which could drive key cell value
+% == 416
+numel(distinguishingQpair)
