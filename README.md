@@ -36,7 +36,7 @@ Directly run `verifyQ1Q2Q3K.m` in MATLAB.
 
 # Observation
 ### There are multiple solutions of *k*  (for all 16 combinations) which have the same value of *l* of under any fixed *q, q'* and *q != q'*.
-### 416 pairs of *{q, q',q''}* (out of 560 possibilitoes) which allow the attacker to uniquely identify the correct value for a 4-bit key.
+### 416 pairs of *{q, q',q''}* (out of 560 possibilitoes) which allow the attacker to uniquely identify the correct value for a 4-bit key. The summary list of all 416 pairs are stored in file `summaryList.log`.
 
 
 # Software Tools
