@@ -1,5 +1,5 @@
 # Exhaustive Search on Key Cells of First Round Key K1 of GIFT-COFB
-### Find all the *l*'s which satisfies *s(q + k) + s(q' + k) = l*, for all possible *q*, *q'*, *k*, and *q != q'* under *GF(2^4)* and AES's S-box. Variables *p, p', k*, and *m* are polynomials under *GF(2^4)*.
+### Find all the *l*'s which satisfies *s(q + k) + s(q' + k) = l*, for all possible *q*, *q'*, *k*, and *q != q'* under *GF(2^4)* and GIFT's S-box. Variables *p, p', k*, and *m* are polynomials under *GF(2^4)*.
 
 Both programs, `Q1Q2K.cpp` and `Q1Q2K_SIMPLIFY.cpp`, exhaustively simulate all 16 *k*'s under each possible combinations of *q* and *q'*, with constraint *q != q'*. The total possible *{q, q'}* 's are are *15 + 14 + ... + 2 + 1 = 120*. `Q1Q2Q3K_SIMPLFY.cpp` exhaustively simulate all 16 *k*'s under all possible combinations of *q, q', q''*, with constraint *q != q'!= q''*. The total possible *{q, q',q''}*'s are are *C(16,3)= 16\*15\*14/(3\*2\*1)=560*.
 
